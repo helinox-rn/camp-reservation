@@ -49,6 +49,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            object-position: center;
             z-index: 0;
         }
         #auth-section::before {
@@ -184,14 +185,14 @@
     </div>
 
     <div id="content">
-        <div class="relative h-screen">
+        <div class="relative min-h-[60vh] md:h-screen">
             <div class="absolute inset-0">
                 <img src="11.jpg" alt="캠핑장 전경" class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-black bg-opacity-50"></div>
             </div>
             <div class="relative container mx-auto px-4 h-full flex items-center">
                 <div class="text-white max-w-3xl">
-                    <h1 class="text-5xl font-bold mb-6 whitespace-nowrap">Helinox 사내 캠핑장에 오신 것을 환영합니다</h1>
+                    <h1 class="text-3xl md:text-5xl font-bold mb-6 break-keep">Helinox 사내 캠핑장에 오신 것을 환영합니다</h1>
                     <p class="text-xl mb-8">자연 속에서 즐기는 특별한 휴식, 직원들을 위한 프리미엄 캠핑 공간</p>
                     <div class="flex flex-wrap gap-4">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeR5Pm6GnzZXGa9CLRhuJ2YkreVKxmUKLkuR8YgRmUrZ6orEQ/viewform"
